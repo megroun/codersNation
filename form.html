@@ -1,0 +1,67 @@
+<link rel="stylesheet" href="form.css">
+<script src="form.js"></script>
+<div id="main">
+    <div id="header">Welcome To Coders Nation</div>
+    <div id="content">
+        <div id="left_container">
+          <img src="codersignup.png" alt="avatar" class="logo">
+          <span class="tname"><b>Signup</b></span> 
+          <div class="details">
+                <div class="inputs">
+                    <input type="text" placeholder="Username" id="username" value="" >
+                </div>
+                <!-- <div class="inputs">
+                    <input type="text" placeholder="Email" id="email" value="" >
+                </div> -->
+                <div class="inputs">
+                    <input type="password" placeholder="Password" id="psw" value="" >
+                </div>  
+                <div class="inputs">
+                    <input type="password" placeholder="Confirm password" id="cpsw" value="" onkeyup="disable(this)" >
+                </div>           
+          </div>
+          <div class="checkin">
+                <div class="chkbox">
+                    <input type="checkbox">
+                    <label class="boxname">Terms&Conditions</label>
+                </div>
+                <div class="btn">
+                    <button id="btn1" disabled onclick="validation(this)" >Sign Up</button>
+                </div>
+          </div> 
+        </div>
+        <div id="right_container">
+                <img src="snapchat.png" alt="avatar" class="logo">
+                <span class="tname1"><b>Login</b></span> 
+                <div class="details">
+                      <div class="inputs">
+                          <input type="text" placeholder="Username">
+                      </div>
+                      <div class="inputs">
+                          <input type="text" placeholder="Email">
+                      </div>
+                      <div class="inputs">
+                          <input type="password" placeholder="Password">
+                      </div>            
+                </div>
+                <div class="checkin">
+                      <div class="chkbox">
+                          <input type="checkbox">
+                          <label class="boxname">Remember me</label>
+                      </div>
+                      <div class="btn">
+                          <button class="btn1">Login</button>
+                      </div>
+                </div> 
+              </div>
+    </div>
+</div>
+<!-- if(check.value === password.value){
+        check.style.border = "2px solid green"
+        password.style.border = "2px solid green"
+    }
+    else{
+        check.style.border = "2px solid red"
+        password.style.border = "2px solid red"
+    }
+}; -->
